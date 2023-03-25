@@ -1,28 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alpha Nu Grade Reports</title>
+    <title>Grade Report</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("https://cdn.pixabay.com/photo/2016/09/07/11/38/pattern-1659447_960_720.jpg");
+        background-size: cover;
+      }
+      h1 {
+        color: #00468b;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: auto;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #ee2e24;
+        color: #ffffff;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
   </head>
   <body>
-    <form name="uploadForm">
-      <div>
-        <input id="uploadInput" type="file" single />
-    </form>
-    <div id="stats"></div>
+    <h1>Alpha Nu Grade Reports</h1>
     <table>
-        <tr>
-            <td>Name</td>
-            <td>Student ID</td>
-            <td>Term GPA</td>
-            <td>Term Hours</td>
-            <td>Grade Points</td>
-            <td>CUM GPA</td>
-            <td>CUM Hours</td>
-        </tr>
+      <tr>
+        <th>Semester & Year (SSYYYY)</th>
+        <th>Links</th>
+        <th>Beta Rankings</th>
+      </tr>
+      <tr>
+        <td>FA2022</td>
+        <td>
+          <a href="./sfl-reports/Fall 22 - SFL Community Report.pdf"
+            >SFL Report</a
+          >
+        </td>
+        <td>
+          <ul>
+            <li>1st - Sorority and Fraternity Life</li>
+            <li>1st - IFC</li>
+            <li>1st - IFC New member</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>SP2022</td>
+        <td>
+          <a href="./sfl-reports/Spring 22 - All SFL Community Report (1).pdf"
+            >SFL Report</a
+          >
+        </td>
+        <td>
+          <ul>
+            <li>3rd - Sorority and Fraternity Life</li>
+            <li>1st - IFC</li>
+            <li>No new member class</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>FA2021</td>
+        <td>
+          <a href="./sfl-reports/Fall 2021 Academic Report.pdf">SFL Report</a>
+        </td>
+        <td>
+          <ul>
+            <li>5th - Sorority and Fraternity Life</li>
+            <li>2nd - IFC</li>
+            <li>1st - IFC New member</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>SP2021</td>
+        <td>
+          <a href="./sfl-reports/SFL Academic Report S21.pdf">SFL Report</a>
+        </td>
+        <td>
+          <ul>
+            <li>6th - Sorority and Fraternity Life</li>
+            <li>2nd - IFC</li>
+            <li>No new member class</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>FA2020</td>
+        <td>
+          <a
+            href="./sfl-reports/SFL Academic Report F20_Community_Public (All).pdf"
+            >SFL Report</a
+          >
+        </td>
+        <td>
+          <ul>
+            <li>5th - Sorority and Fraternity Life</li>
+            <li>1st - IFC</li>
+            <li>1st - IFC New member</li>
+          </ul>
+        </td>
+      </tr>
     </table>
-    <script src="./main.js"></script>
+    <h3>
+      <center>
+        Back to <a href="https://kansasbeta.org">kansasbeta.org</a>
+      </center>
+    </h3>
   </body>
 </html>
